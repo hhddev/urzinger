@@ -1,0 +1,114 @@
+#backwelle {
+	z-index: -1;
+	position: fixed;
+	width: 100%;
+	height: 400px;
+	background-image: url(../img/00_bcwelle780.png);
+	margin-top: 60em;
+	background-repeat: repeat-x;
+}
+.container #content {
+	height: 100px;
+	margin-bottom: 0px;
+}
+
+
+#header {
+	height: 100px;
+	padding-right: 30px;
+	padding-left: 8px;
+}
+#intro {
+	background-color: #FFF;
+	height: 145px;
+	padding-right: 25px;
+	padding-left: 25px;
+	margin-bottom: 8px;
+	font-family: 'Raleway', sans-serif;
+	color: #F65F13;
+	padding-top: 30px;
+}
+#intro .intro_head {
+	float: left;
+	background-color: #FF0;
+	width: 50%;
+	font-size: 175%;
+}
+#intro .introtext {
+	width: 50%;
+	float: right;
+	background-color: #9CC;
+	font-family: 'Droid Sans', sans-serif;
+	font-size: 1.2em;
+	color: #555555;
+}
+#subnavi {
+	background-color: #9F6;
+	height: 19px;
+	padding-top: 9px;
+	padding-left: 25px;
+	text-transform: uppercase;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+}
+#topnavi {
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.2em;
+	text-decoration: none;
+	padding-top: 45px;
+	width: 60%;
+	float: left;
+	text-transform: uppercase;
+	color: #FFF;
+}
+#topnavi a{
+	color: #FFF;
+}
+.logo {
+	float: right;
+	width: 40%;
+	background-color: #CC0;
+	text-align: right;
+	padding-top: 22px;
+}
+
+.logo a:hover {
+	opacity: .5
+}
+#slideshow {
+	background-color: #993;
+	height: 450px;
+	width: 100%;
+}
+.container #blackborder {
+	background-color: #000;
+	width: 100%;
+	height: 28px;
+}
+.container #orangeborder {
+	background: rgb(246,96,19); /* Old browsers */
+
+background: -moz-linear-gradient(left,  rgba(246,96,19,1) 0%, rgba(160,62,12,1) 100%); /* FF3.6+ */
+
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(246,96,19,1)), color-stop(100%,rgba(160,62,12,1))); /* Chrome,Safari4+ */
+
+background: -webkit-linear-gradient(left,  rgba(246,96,19,1) 0%,rgba(160,62,12,1) 100%); /* Chrome10+,Safari5.1+ */
+
+background: -o-linear-gradient(left,  rgba(246,96,19,1) 0%,rgba(160,62,12,1) 100%); /* Opera 11.10+ */
+
+background: -ms-linear-gradient(left,  rgba(246,96,19,1) 0%,rgba(160,62,12,1) 100%); /* IE10+ */
+
+background: linear-gradient(to right,  rgba(246,96,19,1) 0%,rgba(160,62,12,1) 100%); /* W3C */
+
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f66013', endColorstr='#a03e0c',GradientType=1 ); /* IE6-9 */
+
+
+	height: 8px;
+	width: 100%;
+}
+
+
+img {
+  max-width: 100%;
+ height: auto;
+}
